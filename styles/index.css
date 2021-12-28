@@ -1,0 +1,32 @@
+.c-people-list {
+  margin: auto;
+  padding: 0;
+}
+
+.c-people-list___item {
+  cursor: pointer;
+  font-weight: 500;
+  list-style-type: none;
+}
+
+.c-people-list___item:hover {
+  color: blue;
+}
+
+.c-person {
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+}
+
+.c-person span,
+.c-people-list___item {
+  font-size: 1.25rem;
+}
+
+.l-page {
+  align-items: center;
+  display: flex;
+  min-height: 100vh;
+  justify-content: center;
+}
